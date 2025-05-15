@@ -4,9 +4,9 @@ import { motion, AnimatePresence } from "framer-motion";
 import ImageModal from "../components/ImageModal";
 
 const galleryImages = [
-    "/gallery/BB_and_freind.png",
-    "/gallery/Big_bertha_Label.png",
-    "/gallery/BB_Noback.png",
+    "gallery/BB_and_freind.png",
+    "gallery/Big_bertha_Label.png",
+    "gallery/BB_Noback.png",
     // add more as needed
 ];
 
@@ -18,7 +18,7 @@ export default function Home() {
             {/* Hero */}
             <section
                 className="relative h-[calc(100vh-4rem)] bg-cover bg-center font-tech"
-                style={{ backgroundImage: "url('/gallery/BB_Noback.png')" }}
+                style={{ backgroundImage: "url('gallery/BB_Noback.png')" }}
             >
                 <div className="absolute inset-0 bg-black/50"></div>
                 <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
