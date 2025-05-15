@@ -29,7 +29,7 @@ export default function Navbar() {
         >
             <div className="max-w-7xl mx-auto h-full px-4 flex items-center justify-between">
                 <Link href="/" className="flex items-center">
-                    <Image src="/logo.png" alt="Logo" width={120} height={48} />
+                    <Image src="/Elbow_Grease/logo.png" alt="Logo" width={120} height={48} />
                 </Link>
                 <div className="flex space-x-4 text-brand-primary font-medium">
                     {links.map(({ path, label }) => (
