@@ -2,7 +2,7 @@
   "name": "elbow_grease_website",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://danrokadia.github.io/Elbow_Grease_Website",
+  "homepage": "https://ElbowGreaseGDP.github.io/Elbow_Grease",
   "scripts": {
     "dev": "next dev --no-turbopack",
     "build": "next build",

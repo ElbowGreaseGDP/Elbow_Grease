@@ -3,14 +3,14 @@
 const isProd = process.env.NODE_ENV === 'production';
 
 module.exports = {
-    // only turn on static‐export in production
-    ...(isProd
-        ? {
-            output: 'export',
-            trailingSlash: true,
-            images: { unoptimized: true },
-            // if you host at /Elbow_Grease_Website, uncomment:
-            // basePath: '/Elbow_Grease_Website',
-        }
-        : {}),
+    // only in production exports do we use these
+    ...(isProd && {
+        output: 'export',
+        trailingSlash: true,
+        basePath: '/Elbow_Grease',
+        assetPrefix: '/Elbow_Grease/',
+        images: { unoptimized: true },
+    }),
+
+    // In dev mode we want plain localhost paths, so no basePath/assetPrefix
 };
