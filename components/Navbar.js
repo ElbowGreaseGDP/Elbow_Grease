@@ -1,4 +1,3 @@
-// components/Navbar.js
 import Link from "next/link";
 import Image from "next/image";
 import { useState, useEffect } from "react";
@@ -28,20 +27,20 @@ export default function Navbar() {
             className="fixed top-0 w-full h-16 backdrop-blur-md border-b transition-colors z-50"
         >
             <div className="max-w-7xl mx-auto h-full px-4 flex items-center justify-between">
-                <Link href="/" className="flex items-center">
-                    <Image src="/Elbow_Grease/logo.png" alt="Logo" width={120} height={48} />
+                <Link href="/" className="flex-shrink-0">
+                    <Image src="/Elbow_Grease/logo.png" alt="Logo" width={100} height={40} />
                 </Link>
-                <div className="flex space-x-4 text-brand-primary font-medium">
+                <div className="flex flex-wrap justify-end items-center text-brand-primary font-medium text-sm md:text-base">
                     {links.map(({ path, label }) => (
                         <Link
                             key={label}
                             href={path}
-                            className={`
-                                relative px-3 py-1 rounded-md transition-transform duration-200 ease-out
+                            className="
+                                relative px-2 py-1 md:px-3 md:py-1 rounded-md transition-transform duration-200 ease-out
                                 hover:scale-110 hover:text-pink-500
                                 focus:scale-110 focus:text-pink-500 focus:outline-none
                                 active:scale-95 active:text-pink-500
-                            `}
+                            "
                         >
                             {label}
                             <span className="
