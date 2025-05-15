@@ -86,8 +86,8 @@ export default function Simulator() {
 
             <div ref={containerRef} className="relative w-full max-w-5xl px-4">
                 <ModelViewer
-                    src="../models/elbow_simulator_v2.glb"
-                    poster="../models/BB_and_freind.png"
+                    src="/Elbow_Grease/models/elbow_simulator_v2.glb"
+                    poster="/Elbow_grease/models/BB_and_freind.png"
                     autoRotate={autoRotate}
                 />
 

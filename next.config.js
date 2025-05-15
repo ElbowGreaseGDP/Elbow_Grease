@@ -3,6 +3,5 @@
 module.exports = {
     output: 'export',
     trailingSlash: true,
-    assetPrefix: './',
     images: { unoptimized: true },
 };
