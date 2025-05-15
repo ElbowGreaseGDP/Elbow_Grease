@@ -20,7 +20,7 @@ export default function Home() {
                 className="relative h-[calc(100vh-4rem)] bg-cover bg-center font-tech"
                 style={{ backgroundImage: "url('gallery/BB_Noback.png')" }}
             >
-                <div className="absolute inset-0 bg-black/50"></div>
+                <div className="absolute inset-0 bg-black/50" />
                 <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
                     <motion.h1
                         className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-4"
@@ -40,7 +40,7 @@ export default function Home() {
                         simulation and high-fidelity renderings.
                     </motion.p>
                     <Link
-                        href="/simulator"
+                        href="simulator"
                         className="mt-8 inline-block bg-brand-primary hover:bg-brand-secondary text-white font-semibold px-8 py-3 rounded-lg shadow-lg transition"
                     >
                         View Simulator
@@ -49,10 +49,7 @@ export default function Home() {
             </section>
 
             {/* Blended & Clickable Gallery */}
-            <section
-                id="gallery"
-                className="relative -mt-24 pt-24 bg-white px-4"
-            >
+            <section id="gallery" className="relative -mt-24 pt-24 bg-white px-4">
                 <h2 className="text-4xl font-bold text-center text-brand-primary mb-10 font-tech">
                     Rendered Gallery
                 </h2>
@@ -65,11 +62,7 @@ export default function Home() {
                             transition={{ duration: 0.4 }}
                             onClick={() => setSelected(src)}
                         >
-                            <img
-                                src={src}
-                                alt="Render"
-                                className="w-full h-64 object-cover"
-                            />
+                            <img src={src} alt="Render" className="w-full h-64 object-cover" />
                         </motion.div>
                     ))}
                 </div>
@@ -77,9 +70,7 @@ export default function Home() {
 
             {/* Modal */}
             <AnimatePresence>
-                {selected && (
-                    <ImageModal src={selected} onClose={() => setSelected(null)} />
-                )}
+                {selected && <ImageModal src={selected} onClose={() => setSelected(null)} />}
             </AnimatePresence>
         </>
     );

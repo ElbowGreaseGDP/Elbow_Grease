@@ -2,11 +2,13 @@
 import ScrollSection from "../components/ScrollSection";
 import TeamMemberCard from "../components/TeamMemberCard";
 
+// Photo filenames are now just the image name, since on the team page
+// they live in docs/team/<filename>
 const members = [
     {
         name: "Jude Abou-chakra",
         role: "Team Member",
-        photo: "/team/jude.jpg",
+        photo: "jude.jpg",
         socials: {
             linkedin: "https://linkedin.com/in/jude-abou-chakra",
             github: "https://github.com/jude-abou-chakra",
@@ -16,7 +18,7 @@ const members = [
     {
         name: "Gaby Boakye-Ansah",
         role: "Team Member",
-        photo: "/team/gaby.jpg",
+        photo: "gaby.jpg",
         socials: {
             linkedin: "https://linkedin.com/in/gaby-boakye-ansah",
             github: "https://github.com/gaby-boakye-ansah",
@@ -26,7 +28,7 @@ const members = [
     {
         name: "Sam Clark",
         role: "Team Member",
-        photo: "/team/sam.jpg",
+        photo: "sam.jpg",
         socials: {
             linkedin: "https://linkedin.com/in/sam-clark",
             github: "https://github.com/sam-clark",
@@ -36,7 +38,7 @@ const members = [
     {
         name: "Millie Cooper",
         role: "Team Member",
-        photo: "/team/millie.jpg",
+        photo: "millie.jpg",
         socials: {
             linkedin: "https://linkedin.com/in/millie-cooper",
             github: "https://github.com/millie-cooper",
@@ -46,7 +48,7 @@ const members = [
     {
         name: "Rebecca Robertson",
         role: "Team Member",
-        photo: "/team/rebecca.jpg",
+        photo: "rebecca.jpg",
         socials: {
             linkedin: "https://linkedin.com/in/rebecca-robertson",
             github: "https://github.com/rebecca-robertson",
@@ -56,7 +58,7 @@ const members = [
     {
         name: "Daniel Rokadia",
         role: "Team Member",
-        photo: "/team/daniel.jpg",
+        photo: "daniel.jpg",
         socials: {
             linkedin: "https://linkedin.com/in/daniel-rokadia",
             github: "https://github.com/daniel-rokadia",
