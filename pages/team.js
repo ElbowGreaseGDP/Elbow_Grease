@@ -11,8 +11,6 @@ const members = [
         photo: "jude.jpg",
         socials: {
             linkedin: "https://linkedin.com/in/jude-abou-chakra",
-            github: "https://github.com/jude-abou-chakra",
-            email: "jude.abou-chakra@example.com",
         },
     },
     {
@@ -21,8 +19,6 @@ const members = [
         photo: "gaby.jpg",
         socials: {
             linkedin: "https://linkedin.com/in/gaby-boakye-ansah",
-            github: "https://github.com/gaby-boakye-ansah",
-            email: "gaby.boa@example.com",
         },
     },
     {
@@ -30,9 +26,7 @@ const members = [
         role: "Team Member",
         photo: "sam.jpg",
         socials: {
-            linkedin: "https://linkedin.com/in/sam-clark",
-            github: "https://github.com/sam-clark",
-            email: "sam.clark@example.com",
+            linkedin: "https://linkedin.com/in/sgdclark01",
         },
     },
     {
@@ -40,9 +34,7 @@ const members = [
         role: "Team Member",
         photo: "millie.jpg",
         socials: {
-            linkedin: "https://linkedin.com/in/millie-cooper",
-            github: "https://github.com/millie-cooper",
-            email: "millie.cooper@example.com",
+            linkedin: "https://linkedin.com/in/milliecooper1901",
         },
     },
     {
@@ -50,19 +42,16 @@ const members = [
         role: "Team Member",
         photo: "rebecca.jpg",
         socials: {
-            linkedin: "https://linkedin.com/in/rebecca-robertson",
-            github: "https://github.com/rebecca-robertson",
-            email: "rebecca.robertson@example.com",
+            linkedin: "https://linkedin.com/in/r-l-robertson",
         },
     },
     {
         name: "Daniel Rokadia",
         role: "Team Member",
-        photo: "daniel.jpg",
+        photo: "Dan.JPG",
         socials: {
             linkedin: "https://linkedin.com/in/daniel-rokadia",
-            github: "https://github.com/daniel-rokadia",
-            email: "daniel.rokadia@example.com",
+            github: "https://github.com/danrokadia",
         },
     },
 ];
