@@ -6,6 +6,15 @@ import TeamMemberCard from "../components/TeamMemberCard";
 // they live in docs/team/<filename>
 const members = [
     {
+        name: "Daniel Rokadia",
+        role: "Team Member",
+        photo: "Dan.png",
+        socials: {
+            linkedin: "https://linkedin.com/in/daniel-rokadia",
+            github: "https://github.com/danrokadia",
+        },
+    },
+    {
         name: "Jude Abou-chakra",
         role: "Team Member",
         photo: "jude.jpg",
@@ -45,15 +54,7 @@ const members = [
             linkedin: "https://linkedin.com/in/r-l-robertson",
         },
     },
-    {
-        name: "Daniel Rokadia",
-        role: "Team Member",
-        photo: "Dan.JPG",
-        socials: {
-            linkedin: "https://linkedin.com/in/daniel-rokadia",
-            github: "https://github.com/danrokadia",
-        },
-    },
+
 ];
 
 export default function Team() {
